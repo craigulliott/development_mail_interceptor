@@ -7,5 +7,5 @@ class DevelopmentMailInterceptor
 end
 
 if Rails.env.development?
-  Mail.register_interceptor(DevelopmentMailInterceptor) 
+  ActionMailer::Base.register_interceptor(DevelopmentMailInterceptor) 
 end
