@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "development_mail_interceptor.gemspec",
     "lib/development_mail_interceptor.rb",
     "test/helper.rb",
     "test/test_development_mail_interceptor.rb"
