@@ -6,6 +6,6 @@ class DevelopmentMailInterceptor
   end
 end
 
-if Rails.env == 'development'
+if Rails.env.development?
   Mail.register_interceptor(DevelopmentMailInterceptor) 
 end
