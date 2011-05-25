@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "development_mail_interceptor"
   gem.homepage = "http://github.com/craigulliott/development_mail_interceptor"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "catches emails generated in the developer environment and sends them to the ENV['DEVELOPER_EMAIL'] address instead"
+  gem.description = "catches emails generated in the developer environment and sends them to the ENV['DEVELOPER_EMAIL'] address instead"
   gem.email = "craigulliott@gmail.com"
   gem.authors = ["Craig Ulliott"]
   # dependencies defined in Gemfile
